@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Manrope', sans-serif;
+  color: rgba(0,0,0,0.7)
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.changePageBtn{
+  height: 50px;
+  width: 50px;
+  border: 1px solid blue;
+  border-radius:50%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+.changePageBtn:disabled{
+  background-color: grey;
+  border: 1px solid grey;
+  color: white;
+  font-weight: 800;
 }
