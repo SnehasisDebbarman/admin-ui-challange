@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/admin-ui-challange/static/css/main.e38a013b.css",
+    "main.js": "/admin-ui-challange/static/js/main.1445ec30.js",
+    "static/js/787.92fe2e8c.chunk.js": "/admin-ui-challange/static/js/787.92fe2e8c.chunk.js",
+    "index.html": "/admin-ui-challange/index.html",
+    "main.e38a013b.css.map": "/admin-ui-challange/static/css/main.e38a013b.css.map",
+    "main.1445ec30.js.map": "/admin-ui-challange/static/js/main.1445ec30.js.map",
+    "787.92fe2e8c.chunk.js.map": "/admin-ui-challange/static/js/787.92fe2e8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e38a013b.css",
+    "static/js/main.1445ec30.js"
+  ]
+}
