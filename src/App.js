@@ -24,6 +24,9 @@ function Item({
         gridTemplateColumns: "20% 20% 20% 20% 20%",
         borderBottom: "1px solid rgba(0, 0, 0, 0.1)",
         padding: "10px",
+        fontSize: "13px",
+        fontWeight: "500",
+        color: "rgba(0,0,0.1)",
       }}
     >
       <div>
@@ -231,8 +234,10 @@ function App() {
             Search(e.target.value);
           }}
           style={{
-            padding: "0.5%",
+            padding: "0.8%",
             width: "90%",
+            border: "1.5px solid rgba(0, 0, 0, 0.3)",
+            borderRadius: "5px",
           }}
         />
       </div>
@@ -251,7 +256,7 @@ function App() {
             width: "90%",
             gridTemplateColumns: "20% 20% 20% 20% 20%",
             fontWeight: "bolder",
-            borderBottom: "1.5px solid rgba(0, 0, 0, 0.3)",
+            borderBottom: "0.5px solid rgba(0, 0, 0, 0.3)",
             paddingBottom: "10px",
             padding: "10px",
           }}
